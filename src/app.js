@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 const app = express()
 
 console.log(import.meta.url);
+console.log("this line edited by gaurav");
 app.get('/product', (req, res) => {
 	res.sendFile(path.join(__dirname, './view/product.html'))
 })
