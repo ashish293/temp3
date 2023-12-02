@@ -17,6 +17,7 @@ app.get('/product', (req, res) => {
 app.use('/', (req, res) => {
 	res.status(404).send('<html><body><h1>Page not found</h1></body></html>')
 })
+console.log('A feature added');
 
 
 app.listen(PORT, () => {
